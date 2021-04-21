@@ -37,11 +37,13 @@ class Carousel extends Component {
                   </TransitionGroup>
                 </button>
               </div>
+              
               <img
                 src={images[currentIndex]}
                 alt={name}
                 className="display-image"
               />
+              
               <div className="purchase-button-wrapper">
                 <button className="save-for-later">
                   <span className="hover-anim">Save for later</span>

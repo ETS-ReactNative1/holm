@@ -1,65 +1,65 @@
 /* CircularStd @font-face kit */
 @font-face {
-  font-family: "CircularStd";
-  src: url("./fonts/CircularStd-Black.eot");
-  src: url("./fonts/CircularStd-Black.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/CircularStd-Black.woff") format("woff"),
-    url("./fonts/CircularStd-Black.ttf") format("truetype"),
-    url("./fonts/CircularStd-Black.svg#bcc26993292869431e54c666aafa8fcd")
-      format("svg");
+  font-family: 'CircularStd';
+  src: url('./fonts/CircularStd-Black.eot');
+  src: url('./fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/CircularStd-Black.woff') format('woff'),
+    url('./fonts/CircularStd-Black.ttf') format('truetype'),
+    url('./fonts/CircularStd-Black.svg#bcc26993292869431e54c666aafa8fcd')
+      format('svg');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "CircularStd";
-  src: url("./fonts/CircularStd-Bold.eot");
-  src: url("./fonts/CircularStd-Bold.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/CircularStd-Bold.woff") format("woff"),
-    url("./fonts/CircularStd-Bold.ttf") format("truetype"),
-    url("./fonts/CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd")
-      format("svg");
+  font-family: 'CircularStd';
+  src: url('./fonts/CircularStd-Bold.eot');
+  src: url('./fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/CircularStd-Bold.woff') format('woff'),
+    url('./fonts/CircularStd-Bold.ttf') format('truetype'),
+    url('./fonts/CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd')
+      format('svg');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "CircularStd";
-  src: url("./fonts/CircularStd-Medium.eot");
-  src: url("./fonts/CircularStd-Medium.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/CircularStd-Medium.woff") format("woff"),
-    url("./fonts/CircularStd-Medium.ttf") format("truetype"),
-    url("./fonts/CircularStd-Medium.svg#bcc26993292869431e54c666aafa8fcd")
-      format("svg");
+  font-family: 'CircularStd';
+  src: url('./fonts/CircularStd-Medium.eot');
+  src: url('./fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/CircularStd-Medium.woff') format('woff'),
+    url('./fonts/CircularStd-Medium.ttf') format('truetype'),
+    url('./fonts/CircularStd-Medium.svg#bcc26993292869431e54c666aafa8fcd')
+      format('svg');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "CircularStd";
-  src: url("./fonts/CircularStd-Book.eot");
-  src: url("./fonts/CircularStd-Book.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/CircularStd-Book.woff") format("woff"),
-    url("./fonts/CircularStd-Book.ttf") format("truetype"),
-    url("./fonts/CircularStd-Book.svg#bcc26993292869431e54c666aafa8fcd")
-      format("svg");
+  font-family: 'CircularStd';
+  src: url('./fonts/CircularStd-Book.eot');
+  src: url('./fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/CircularStd-Book.woff') format('woff'),
+    url('./fonts/CircularStd-Book.ttf') format('truetype'),
+    url('./fonts/CircularStd-Book.svg#bcc26993292869431e54c666aafa8fcd')
+      format('svg');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "FeatherIcon";
-  src: url("./fonts/icomoon.eot");
-  src: url("./fonts/icomoon.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/icomoon.woff") format("woff"),
-    url("./fonts/icomoon.ttf") format("truetype"),
-    url("./fonts/icomoon.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+  font-family: 'FeatherIcon';
+  src: url('./fonts/icomoon.eot');
+  src: url('./fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/icomoon.woff') format('woff'),
+    url('./fonts/icomoon.ttf') format('truetype'),
+    url('./fonts/icomoon.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
   font-weight: 400;
   font-style: normal;
 }
 
 .icon {
-  font-family: "FeatherIcon";
+  font-family: 'FeatherIcon';
   font-size: 1.3rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -76,8 +76,8 @@ body,
 }
 
 body {
-  font-family: "CircularStd", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'CircularStd', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background: #f6f6f6;
   margin: 0;
   padding: 0;
@@ -421,7 +421,7 @@ button {
 }
 
 .menu-button span:before {
-  content: "\e98f";
+  content: '\e98f';
 }
 
 .menu-index {
@@ -522,7 +522,7 @@ ul.similar-products {
 
 .carousel {
   display: grid;
-  grid-template-rows: 1fr 6fr 1fr 1fr;
+  grid-template-rows: 10vh 70vh 10vh 20vh;
   height: 100vh;
 }
 
@@ -545,8 +545,8 @@ ul.similar-products {
 }
 
 .shopping-cart {
-  font-family: "CircularStd", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'CircularStd', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
@@ -691,7 +691,7 @@ button.save-for-later:active {
 }
 
 .close-cart span:before {
-  content: "\ea04";
+  content: '\ea04';
 }
 
 .cart-total-wrapper {
@@ -731,12 +731,12 @@ button.save-for-later:active {
 }
 
 .cart-item-quantity button.add-quantity span:before {
-  content: "\e9b3";
+  content: '\e9b3';
   font-size: 0.8rem;
 }
 
 .cart-item-quantity button.minus-quantity span:before {
-  content: "\e998";
+  content: '\e998';
   font-size: 0.8rem;
 }
 
